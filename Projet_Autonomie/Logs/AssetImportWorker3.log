@@ -1,0 +1,450 @@
+Using pre-set license
+Built from '6000.0/staging' branch; Version is '6000.0.34f1 (5ab2d9ed9190) revision 5944025'; Using compiler version '193933523'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit Professional' Language: 'fr' Physical Memory: 31904 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.0.34f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker3
+-projectPath
+C:/Users/Admin/Projet_Autonomie
+-logFile
+Logs/AssetImportWorker3.log
+-srvPort
+52184
+-job-worker-count
+7
+-background-job-worker-count
+8
+-gc-helper-count
+1
+Successfully changed project path to: C:/Users/Admin/Projet_Autonomie
+C:/Users/Admin/Projet_Autonomie
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [23544]  Target information:
+
+Player connection [23544]  * "[IP] 192.168.1.15 [Port] 0 [Flags] 2 [Guid] 1739450970 [EditorId] 1739450970 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-UGF7PAM) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [23544] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [23544] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 7
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 4.25 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.0.34f1 (5ab2d9ed9190)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.34f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Admin/Projet_Autonomie/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 4060 Ti (ID=0x2803)
+    Vendor:   NVIDIA
+    VRAM:     7949 MB
+    Driver:   32.0.15.6636
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.34f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.34f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.34f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56476
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.34f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.34f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003018 seconds.
+- Loaded All Assemblies, in  0.261 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.202 seconds
+Domain Reload Profiling: 461ms
+	BeginReloadAssembly (82ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (0ms)
+	RebuildCommonClasses (24ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (37ms)
+	LoadAllAssembliesAndSetupDomain (107ms)
+		LoadAssemblies (80ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (105ms)
+			TypeCache.Refresh (104ms)
+				TypeCache.ScanAssembly (94ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (203ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (174ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (18ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (32ms)
+			ProcessInitializeOnLoadAttributes (89ms)
+			ProcessInitializeOnLoadMethodAttributes (32ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.579 seconds
+Refreshing native plugins compatible for Editor in 3.31 ms, found 2 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.92 ms, found 2 plugins.
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-Projet_Autonomie
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.590 seconds
+Domain Reload Profiling: 1165ms
+	BeginReloadAssembly (116ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (28ms)
+	RebuildCommonClasses (23ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (27ms)
+	LoadAllAssembliesAndSetupDomain (400ms)
+		LoadAssemblies (280ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (183ms)
+			TypeCache.Refresh (129ms)
+				TypeCache.ScanAssembly (117ms)
+			BuildScriptInfoCaches (45ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (591ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (495ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (79ms)
+			ProcessInitializeOnLoadAttributes (222ms)
+			ProcessInitializeOnLoadMethodAttributes (183ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Refreshing native plugins compatible for Editor in 4.92 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 232 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5798 unused Assets / (4.7 MB). Loaded Objects now: 6494.
+Memory consumption went from 172.4 MB to 167.6 MB.
+Total: 17.212000 ms (FindLiveObjects: 0.922000 ms CreateObjectMapping: 0.939700 ms MarkObjects: 11.896200 ms  DeleteObjects: 3.452600 ms)
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 4.18 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5761 unused Assets / (5.0 MB). Loaded Objects now: 6492.
+Memory consumption went from 133.7 MB to 128.7 MB.
+Total: 14.536100 ms (FindLiveObjects: 1.054700 ms CreateObjectMapping: 1.091900 ms MarkObjects: 9.804000 ms  DeleteObjects: 2.584300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.603 seconds
+Refreshing native plugins compatible for Editor in 2.96 ms, found 2 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.637 seconds
+Domain Reload Profiling: 1238ms
+	BeginReloadAssembly (162ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (52ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (22ms)
+	LoadAllAssembliesAndSetupDomain (377ms)
+		LoadAssemblies (292ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (152ms)
+			TypeCache.Refresh (10ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (132ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (637ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (485ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (87ms)
+			ProcessInitializeOnLoadAttributes (228ms)
+			ProcessInitializeOnLoadMethodAttributes (157ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+Refreshing native plugins compatible for Editor in 3.17 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 23 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5794 unused Assets / (4.8 MB). Loaded Objects now: 6506.
+Memory consumption went from 147.8 MB to 143.0 MB.
+Total: 10.358500 ms (FindLiveObjects: 0.518000 ms CreateObjectMapping: 0.183500 ms MarkObjects: 7.101700 ms  DeleteObjects: 2.554100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Assembly with name 'fps.Editor' already exists (Assets/Game/FPS/Scripts/Editor/fps.Editor.asmdef)
+Assembly with name 'fps.Editor' already exists (Assets/FPS/Scripts/Editor/fps.Editor.asmdef)
+Assembly with name 'fps.Gameplay' already exists (Assets/FPS/Scripts/Gameplay/fps.Gameplay.asmdef)
+Assembly with name 'fps.Gameplay' already exists (Assets/Game/FPS/Scripts/Gameplay/fps.Gameplay.asmdef)
+Assembly with name 'fps.Game' already exists (Assets/Game/FPS/Scripts/Game/fps.Game.asmdef)
+Assembly with name 'fps.Game' already exists (Assets/FPS/Scripts/Game/fps.Game.asmdef)
+Assembly with name 'fps.AI' already exists (Assets/FPS/Scripts/AI/fps.AI.asmdef)
+Assembly with name 'fps.AI' already exists (Assets/Game/FPS/Scripts/AI/fps.AI.asmdef)
+Assembly with name 'fps.UI' already exists (Assets/Game/FPS/Scripts/UI/fps.UI.asmdef)
+Assembly with name 'fps.UI' already exists (Assets/FPS/Scripts/UI/fps.UI.asmdef)
+Assembly with name 'fps.Editor' already exists (Assets/Game/FPS/Scripts/Editor/fps.Editor.asmdef)
+Assembly with name 'fps.Editor' already exists (Assets/FPS/Scripts/Editor/fps.Editor.asmdef)
+Assembly with name 'fps.Gameplay' already exists (Assets/FPS/Scripts/Gameplay/fps.Gameplay.asmdef)
+Assembly with name 'fps.Gameplay' already exists (Assets/Game/FPS/Scripts/Gameplay/fps.Gameplay.asmdef)
+Assembly with name 'fps.Game' already exists (Assets/Game/FPS/Scripts/Game/fps.Game.asmdef)
+Assembly with name 'fps.Game' already exists (Assets/FPS/Scripts/Game/fps.Game.asmdef)
+Assembly with name 'fps.AI' already exists (Assets/FPS/Scripts/AI/fps.AI.asmdef)
+Assembly with name 'fps.AI' already exists (Assets/Game/FPS/Scripts/AI/fps.AI.asmdef)
+Assembly with name 'fps.UI' already exists (Assets/Game/FPS/Scripts/UI/fps.UI.asmdef)
+Assembly with name 'fps.UI' already exists (Assets/FPS/Scripts/UI/fps.UI.asmdef)
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.549 seconds
+Assembly with name 'fps.Editor' already exists (Assets/Game/FPS/Scripts/Editor/fps.Editor.asmdef)
+Assembly with name 'fps.Editor' already exists (Assets/FPS/Scripts/Editor/fps.Editor.asmdef)
+Assembly with name 'fps.Gameplay' already exists (Assets/FPS/Scripts/Gameplay/fps.Gameplay.asmdef)
+Assembly with name 'fps.Gameplay' already exists (Assets/Game/FPS/Scripts/Gameplay/fps.Gameplay.asmdef)
+Assembly with name 'fps.Game' already exists (Assets/Game/FPS/Scripts/Game/fps.Game.asmdef)
+Assembly with name 'fps.Game' already exists (Assets/FPS/Scripts/Game/fps.Game.asmdef)
+Assembly with name 'fps.AI' already exists (Assets/FPS/Scripts/AI/fps.AI.asmdef)
+Assembly with name 'fps.AI' already exists (Assets/Game/FPS/Scripts/AI/fps.AI.asmdef)
+Assembly with name 'fps.UI' already exists (Assets/Game/FPS/Scripts/UI/fps.UI.asmdef)
+Assembly with name 'fps.UI' already exists (Assets/FPS/Scripts/UI/fps.UI.asmdef)
+Refreshing native plugins compatible for Editor in 3.90 ms, found 2 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Assembly with name 'fps.Editor' already exists (Assets/Game/FPS/Scripts/Editor/fps.Editor.asmdef)
+Assembly with name 'fps.Editor' already exists (Assets/FPS/Scripts/Editor/fps.Editor.asmdef)
+Assembly with name 'fps.Gameplay' already exists (Assets/FPS/Scripts/Gameplay/fps.Gameplay.asmdef)
+Assembly with name 'fps.Gameplay' already exists (Assets/Game/FPS/Scripts/Gameplay/fps.Gameplay.asmdef)
+Assembly with name 'fps.Game' already exists (Assets/Game/FPS/Scripts/Game/fps.Game.asmdef)
+Assembly with name 'fps.Game' already exists (Assets/FPS/Scripts/Game/fps.Game.asmdef)
+Assembly with name 'fps.AI' already exists (Assets/FPS/Scripts/AI/fps.AI.asmdef)
+Assembly with name 'fps.AI' already exists (Assets/Game/FPS/Scripts/AI/fps.AI.asmdef)
+Assembly with name 'fps.UI' already exists (Assets/Game/FPS/Scripts/UI/fps.UI.asmdef)
+Assembly with name 'fps.UI' already exists (Assets/FPS/Scripts/UI/fps.UI.asmdef)
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.565 seconds
+Domain Reload Profiling: 1112ms
+	BeginReloadAssembly (149ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (47ms)
+	RebuildCommonClasses (22ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (20ms)
+	LoadAllAssembliesAndSetupDomain (341ms)
+		LoadAssemblies (262ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (143ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (1ms)
+			BuildScriptInfoCaches (125ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (565ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (439ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (81ms)
+			ProcessInitializeOnLoadAttributes (219ms)
+			ProcessInitializeOnLoadMethodAttributes (129ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Refreshing native plugins compatible for Editor in 4.53 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5794 unused Assets / (4.3 MB). Loaded Objects now: 6508.
+Memory consumption went from 146.2 MB to 141.9 MB.
+Total: 9.012000 ms (FindLiveObjects: 0.798700 ms CreateObjectMapping: 0.266500 ms MarkObjects: 6.330600 ms  DeleteObjects: 1.615600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Assembly with name 'NavMeshComponentsEditor' already exists (Assets/NavMeshComponents/Editor/NavMeshComponentsEditor.asmdef)
+Assembly with name 'NavMeshComponentsEditor' already exists (Assets/Game/NavMeshComponents/Editor/NavMeshComponentsEditor.asmdef)
+Assembly with name 'fps.Editor' already exists (Assets/Game/FPS/Scripts/Editor/fps.Editor.asmdef)
+Assembly with name 'fps.Editor' already exists (Assets/FPS/Scripts/Editor/fps.Editor.asmdef)
+Assembly with name 'fps.Gameplay' already exists (Assets/FPS/Scripts/Gameplay/fps.Gameplay.asmdef)
+Assembly with name 'fps.Gameplay' already exists (Assets/Game/FPS/Scripts/Gameplay/fps.Gameplay.asmdef)
+Assembly with name 'fps.Game' already exists (Assets/Game/FPS/Scripts/Game/fps.Game.asmdef)
+Assembly with name 'fps.Game' already exists (Assets/FPS/Scripts/Game/fps.Game.asmdef)
+Assembly with name 'fps.AI' already exists (Assets/FPS/Scripts/AI/fps.AI.asmdef)
+Assembly with name 'fps.AI' already exists (Assets/Game/FPS/Scripts/AI/fps.AI.asmdef)
+Assembly with name 'NavMeshComponents' already exists (Assets/NavMeshComponents/Scripts/NavMeshComponents.asmdef)
+Assembly with name 'NavMeshComponents' already exists (Assets/Game/NavMeshComponents/Scripts/NavMeshComponents.asmdef)
+Assembly with name 'fps.UI' already exists (Assets/Game/FPS/Scripts/UI/fps.UI.asmdef)
+Assembly with name 'fps.UI' already exists (Assets/FPS/Scripts/UI/fps.UI.asmdef)
+Assembly with name 'NavMeshComponentsEditor' already exists (Assets/NavMeshComponents/Editor/NavMeshComponentsEditor.asmdef)
+Assembly with name 'NavMeshComponentsEditor' already exists (Assets/Game/NavMeshComponents/Editor/NavMeshComponentsEditor.asmdef)
+Assembly with name 'fps.Editor' already exists (Assets/Game/FPS/Scripts/Editor/fps.Editor.asmdef)
+Assembly with name 'fps.Editor' already exists (Assets/FPS/Scripts/Editor/fps.Editor.asmdef)
+Assembly with name 'fps.Gameplay' already exists (Assets/FPS/Scripts/Gameplay/fps.Gameplay.asmdef)
+Assembly with name 'fps.Gameplay' already exists (Assets/Game/FPS/Scripts/Gameplay/fps.Gameplay.asmdef)
+Assembly with name 'fps.Game' already exists (Assets/Game/FPS/Scripts/Game/fps.Game.asmdef)
+Assembly with name 'fps.Game' already exists (Assets/FPS/Scripts/Game/fps.Game.asmdef)
+Assembly with name 'fps.AI' already exists (Assets/FPS/Scripts/AI/fps.AI.asmdef)
+Assembly with name 'fps.AI' already exists (Assets/Game/FPS/Scripts/AI/fps.AI.asmdef)
+Assembly with name 'NavMeshComponents' already exists (Assets/NavMeshComponents/Scripts/NavMeshComponents.asmdef)
+Assembly with name 'NavMeshComponents' already exists (Assets/Game/NavMeshComponents/Scripts/NavMeshComponents.asmdef)
+Assembly with name 'fps.UI' already exists (Assets/Game/FPS/Scripts/UI/fps.UI.asmdef)
+Assembly with name 'fps.UI' already exists (Assets/FPS/Scripts/UI/fps.UI.asmdef)
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.551 seconds
+Assembly with name 'NavMeshComponentsEditor' already exists (Assets/NavMeshComponents/Editor/NavMeshComponentsEditor.asmdef)
+Assembly with name 'NavMeshComponentsEditor' already exists (Assets/Game/NavMeshComponents/Editor/NavMeshComponentsEditor.asmdef)
+Assembly with name 'fps.Editor' already exists (Assets/Game/FPS/Scripts/Editor/fps.Editor.asmdef)
+Assembly with name 'fps.Editor' already exists (Assets/FPS/Scripts/Editor/fps.Editor.asmdef)
+Assembly with name 'fps.Gameplay' already exists (Assets/FPS/Scripts/Gameplay/fps.Gameplay.asmdef)
+Assembly with name 'fps.Gameplay' already exists (Assets/Game/FPS/Scripts/Gameplay/fps.Gameplay.asmdef)
+Assembly with name 'fps.Game' already exists (Assets/Game/FPS/Scripts/Game/fps.Game.asmdef)
+Assembly with name 'fps.Game' already exists (Assets/FPS/Scripts/Game/fps.Game.asmdef)
+Assembly with name 'fps.AI' already exists (Assets/FPS/Scripts/AI/fps.AI.asmdef)
+Assembly with name 'fps.AI' already exists (Assets/Game/FPS/Scripts/AI/fps.AI.asmdef)
+Assembly with name 'NavMeshComponents' already exists (Assets/NavMeshComponents/Scripts/NavMeshComponents.asmdef)
+Assembly with name 'NavMeshComponents' already exists (Assets/Game/NavMeshComponents/Scripts/NavMeshComponents.asmdef)
+Assembly with name 'fps.UI' already exists (Assets/Game/FPS/Scripts/UI/fps.UI.asmdef)
+Assembly with name 'fps.UI' already exists (Assets/FPS/Scripts/UI/fps.UI.asmdef)
+Refreshing native plugins compatible for Editor in 3.26 ms, found 2 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Assembly with name 'NavMeshComponentsEditor' already exists (Assets/NavMeshComponents/Editor/NavMeshComponentsEditor.asmdef)
+Assembly with name 'NavMeshComponentsEditor' already exists (Assets/Game/NavMeshComponents/Editor/NavMeshComponentsEditor.asmdef)
+Assembly with name 'fps.Editor' already exists (Assets/Game/FPS/Scripts/Editor/fps.Editor.asmdef)
+Assembly with name 'fps.Editor' already exists (Assets/FPS/Scripts/Editor/fps.Editor.asmdef)
+Assembly with name 'fps.Gameplay' already exists (Assets/FPS/Scripts/Gameplay/fps.Gameplay.asmdef)
+Assembly with name 'fps.Gameplay' already exists (Assets/Game/FPS/Scripts/Gameplay/fps.Gameplay.asmdef)
+Assembly with name 'fps.Game' already exists (Assets/Game/FPS/Scripts/Game/fps.Game.asmdef)
+Assembly with name 'fps.Game' already exists (Assets/FPS/Scripts/Game/fps.Game.asmdef)
+Assembly with name 'fps.AI' already exists (Assets/FPS/Scripts/AI/fps.AI.asmdef)
+Assembly with name 'fps.AI' already exists (Assets/Game/FPS/Scripts/AI/fps.AI.asmdef)
+Assembly with name 'NavMeshComponents' already exists (Assets/NavMeshComponents/Scripts/NavMeshComponents.asmdef)
+Assembly with name 'NavMeshComponents' already exists (Assets/Game/NavMeshComponents/Scripts/NavMeshComponents.asmdef)
+Assembly with name 'fps.UI' already exists (Assets/Game/FPS/Scripts/UI/fps.UI.asmdef)
+Assembly with name 'fps.UI' already exists (Assets/FPS/Scripts/UI/fps.UI.asmdef)
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.593 seconds
+Domain Reload Profiling: 1142ms
+	BeginReloadAssembly (152ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (46ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (19ms)
+	LoadAllAssembliesAndSetupDomain (335ms)
+		LoadAssemblies (264ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (139ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (124ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (593ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (457ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (88ms)
+			ProcessInitializeOnLoadAttributes (227ms)
+			ProcessInitializeOnLoadMethodAttributes (129ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (11ms)
+Refreshing native plugins compatible for Editor in 3.98 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5794 unused Assets / (4.4 MB). Loaded Objects now: 6510.
+Memory consumption went from 146.2 MB to 141.8 MB.
+Total: 9.152100 ms (FindLiveObjects: 0.536200 ms CreateObjectMapping: 0.182400 ms MarkObjects: 6.686600 ms  DeleteObjects: 1.746200 ms)
+
+Prepare: number of updated asset objects reloaded= 10
