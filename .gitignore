@@ -2,6 +2,7 @@
 #
 # Get latest from https://github.com/github/gitignore/blob/main/Unity.gitignore
 #
+/Projet_Autonomie/Temp
 /[Ll]ibrary/
 /[Tt]emp/
 /[Oo]bj/
@@ -59,7 +60,6 @@ sysinfo.txt
 *.apk
 *.aab
 *.unitypackage
-*.unitypackage.meta
 *.app
 
 # Crashlytics generated file
@@ -71,3 +71,9 @@ crashlytics-build.properties
 # Temporary auto-generated Android Assets
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
+
+# Ignorer les fichiers volumineux Unity
+Projet_Autonomie/Library/PackageCache
+
+# Ingorer les fichiers users
+Projet_Autonomie/UserSettings
