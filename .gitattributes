@@ -1,0 +1,48 @@
+# Unity YAML files
+*.unity merge=unityyaml
+*.prefab merge=unityyaml
+*.asset merge=unityyaml
+*.mat merge=unityyaml
+*.controller merge=unityyaml
+
+# Image files (treated as binary)
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.psd binary
+*.tga binary
+
+# Audio files (treated as binary)
+*.wav binary
+*.mp3 binary
+*.ogg binary
+*.flac binary
+
+# Video files (treated as binary)
+*.mp4 binary
+*.mov binary
+
+# Shader files (text files)
+*.shader text
+
+# Text files
+*.txt text
+*.csv text
+*.json text
+*.xml text
+*.fnt text
+
+# Script files
+*.cs text diff=csharp
+*.js text
+*.boo text
+
+# Git Large File Storage (LFS) for heavy binary files
+*.fbx filter=lfs diff=lfs merge=lfs
+*.obj filter=lfs diff=lfs merge=lfs
+
+# Ignore Unity-generated metadata files
+Library/* export-ignore
+Temp/* export-ignore
+Logs/* export-ignore
+MemoryCaptures/* export-ignore
