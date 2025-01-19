@@ -1,7 +1,4 @@
-# This .gitignore file should be placed at the root of your Unity project directory
-# Get latest from https://github.com/github/gitignore/blob/main/Unity.gitignore
-
-# Unity-generated folders
+# Ignorer tous les fichiers générés par Unity
 [Ll]ibrary/
 [Tt]emp/
 [Oo]bj/
@@ -12,7 +9,7 @@
 [Mm]emoryCaptures/
 [Rr]ecordings/
 
-# Addressables and StreamingAssets
+# Ignorer les Addressables et StreamingAssets
 [Aa]ssets/[Aa]ddressable[Aa]ssets[Dd]ata/
 [Aa]ssets/[Ss]treamingAssets/aa.meta
 [Aa]ssets/[Ss]treamingAssets/aa/*
@@ -20,7 +17,7 @@
 # Unity Cloud Build
 /[Bb]uilds/**/output/
 
-# Platform-specific files
+# Fichiers spécifiques à la plateforme
 *.pdb
 *.ilk
 *.exp
@@ -30,10 +27,8 @@
 *.x86
 *.x86_64
 
-# Auto-generated files
-*.csproj
+# Fichiers auto-générés
 *.unityproj
-*.sln
 *.pidb
 *.mdb
 *.pdb
@@ -43,27 +38,27 @@
 *.bak
 *.log
 
-# Visual Studio files
+# Ignorer les fichiers Visual Studio
 .vs/
 *.userprefs
 
-# JetBrains Rider plugin
+# Plugin JetBrains Rider
 [Aa]ssets/Plugins/Editor/JetBrains*
 
-# Gradle cache
+# Cache Gradle
 .gradle/
 
-# Custom configuration files
+# Fichiers de configuration personnalisés
 *.env
 .env.local
 .env.development
 .env.production
 .env.test
 
-# Unity backups
+# Backups Unity
 *.unity~
 
-# Build artifacts
+# Artifacts de build
 *.apk
 *.aab
 [Ww]eb[Gg][Ll]/
@@ -71,14 +66,23 @@
 *.xcodeproj
 *.xcuserdata
 
-# Temporary or test files
+# Fichiers temporaires ou de test
 /test/
 *.test
 *.temp
 
-# Crashlytics files
+# Fichiers Crashlytics
 crashlytics-build.properties
 
-# Ignore large Unity PackageCache in your project
+# Ignorer les fichiers Unity PackageCache
 Projet_Autonomie/Library/PackageCache
 Projet_Autonomie/UserSettings
+
+# Ignorer tous les fichiers .csproj et .sln
+*.csproj
+*.sln
+
+# Exceptions pour inclure les fichiers spécifiques
+!fps.AI.csproj
+!fps.Editor.csproj
+!MiniFPS.sln
